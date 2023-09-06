@@ -11,6 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>restcrudmndb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>restcrudmndb</name>
 	<description>basic rest operations using spring boot </description>
 	<properties>
@@ -42,6 +43,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+<scope>provided</scope>
+</dependency>
+
 		
 
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
