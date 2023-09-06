@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>restcrudmndb</artifactId>
-	<version>1</version>
 	<packaging>war</packaging>
 	<name>restcrudmndb</name>
 	<description>basic rest operations using spring boot </description>
